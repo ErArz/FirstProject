@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <a class="restart">Начать заново</a>
+    <div class="audio"></div>
+    <!-- <audio src="mp3/fig.mp3" autoplay></audio> -->
+
+    <div class="wrapper">
+        <div class="bord1">
+            <ul class="field">
+                <li>8</li>
+                <li>7</li>
+                <li>6</li>
+                <li>5</li>
+                <li>4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+
+            <ul class="field fieldRight">
+                <li>8</li>
+                <li>7</li>
+                <li>6</li>
+                <li>5</li>
+                <li>4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+            <div class="bord2">
+                <ul class="field fieldLetter ">
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                    <li>D</li>
+                    <li>E</li>
+                    <li>F</li>
+                    <li>G</li>
+                    <li>H</li>
+
+                </ul>
+                <ul class="field fieldLetter  fieldLetterUp">
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                    <li>D</li>
+                    <li>E</li>
+                    <li>F</li>
+                    <li>G</li>
+                    <li>H</li>
+
+                </ul>
+                <div class="bord3">
+                    <div class="damaWrap">
+                        <div class="wrapNoCursor1 damaNone">
+                            <div id="damaWhite" class="dama ">
+                                <img src="img/whiteQueen.png" alt="whiteQueen" class="damaImg" id="Queen">
+                                <img src="img/whiteRook.png" alt="whiteRook" class="damaImg" id="Rook">
+                                <img src="img/whiteElephant.png" alt="whiteElephant" class="damaImg" id="Elephant">
+                                <img src="img/whiteHors.png" alt="whiteHors" class="damaImg" id="Hors">
+                            </div>
+                        </div>
+                        <div class="wrapNoCursor2 damaNone">
+                            <div id="damaBlack" class="dama ">
+                                <img src="img/blackQueen.png" alt="blackQueen" class="damaImg" id="Queen">
+                                <img src="img/blackRook.png" alt="blackRook" class="damaImg" id="Rook">
+                                <img src="img/blackElephant.png" alt="blackElephant" class="damaImg" id="Elephant">
+                                <img src="img/blackHors.png" alt="blackHors" class="damaImg" id="Hors">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chessTable">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="index.js"></script>
+    <script src="figure.js"></script>
+    <script src="movementFigure.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,258 @@
+*,
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bord1 {
+
+    padding: 12px;
+    background-color: rgb(181, 136, 99);
+    border-radius: 10px;
+}
+
+.field {
+
+    user-select: none;
+    margin-top: 60px;
+    list-style-type: none;
+    position: absolute;
+    font-size: 43px;
+    font-weight: 1000;
+    color: rgb(181, 136, 99);
+}
+
+.fieldLetter {
+    font-size: 40px;
+    margin-left: -20px;
+    margin-top: 646.5px;
+}
+
+.fieldLetterUp {
+    margin-top: -49px;
+}
+
+.fieldRight {
+    margin-left: 697px;
+}
+
+.fieldLetter li {
+    text-transform: lowercase;
+    margin-left: 38px;
+    display: inline-block;
+}
+
+.bord1 ul li {
+    padding-left: 13.6px;
+    padding-bottom: 33.5px;
+}
+
+.bord3 {
+    /* border:rgb(181, 136, 99) solid 3px; */
+    padding: 5px;
+    background-color: rgb(181, 136, 99);
+
+}
+
+.bord2 {
+    border: rgb(240, 217, 181) solid 48px;
+    background-color: rgb(181, 136, 99);
+    border-radius: 5px;
+}
+
+.chessTable {
+    /* position: relative; */
+    /* margin-top: 120px;
+    margin-bottom: 120px; */
+    max-width: 640px;
+    max-height: 640px;
+    min-width: 640px;
+    min-height: 640px;
+
+    /* border: black 10px solid; */
+    /* margin: 30px auto; */
+    display: flex;
+    cursor: pointer;
+    flex-wrap: wrap;
+
+}
+
+.tableBox {
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+}
+
+.black {
+    background-color: rgb(181, 136, 99);
+}
+
+.white {
+    background-color: rgb(240, 217, 181);
+}
+
+/* =============================================== */
+
+.chessFigure {
+
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    width: 65px;
+    height: 65px;
+
+}
+
+.blackKing {}
+
+.blackQueen {
+    width: 73px;
+    height: 69px;
+}
+
+.blackElephant {}
+
+
+.blackHors {}
+
+.blackRook {
+
+    width: 56px;
+    height: 63px;
+
+}
+
+.blackPawn {
+    width: 41px;
+    height: 58px;
+    margin-top: 5px;
+
+}
+
+
+
+/* ================================================= */
+
+
+.whiteKing {}
+
+.whiteQueen {
+    width: 73px;
+    height: 69px;
+}
+
+.whiteElephant {}
+
+
+.whiteHors {}
+
+.whiteRook {
+    width: 56px;
+    height: 63px;
+}
+
+.whitePawn {
+    width: 44px;
+    height: 58px;
+    margin-top: 5px;
+
+}
+
+.tem {
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+}
+
+
+
+
+.restart {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 40%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    margin-left: 370px;
+    margin-top: 30px;
+}
+
+.restart:hover {
+    background-position: right center;
+    cursor: pointer;
+}
+
+body {
+    background-color: rgba(41, 41, 41, 0.884);
+}
+
+.damaWrap {
+
+    position: relative;
+
+}
+
+
+.wrapNoCursor1 {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    width: 640px;
+    height: 640px;
+}
+
+.wrapNoCursor2 {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    width: 640px;
+    height: 640px;
+}
+
+
+
+.dama {
+    user-select: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    border-radius: 15px;
+    top: 214px;
+    left: -5px;
+    width: 650px;
+    height: 215px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.damaImg {
+    cursor: pointer;
+    height: 105px;
+    opacity: 0.7;
+}
+
+.damaImg:hover {
+    opacity: 1;
+}
+
+.damaNone {
+    display: none;
+}
